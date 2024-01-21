@@ -1,0 +1,4 @@
+# ~に配置する
+[alias]
+    s = status
+	b = branch -a
