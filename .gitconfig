@@ -2,3 +2,5 @@
 [alias]
     s = status
 	b = branch -a
+    c = commit -m 
+    a = add 
