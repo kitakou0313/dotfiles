@@ -1,3 +1,7 @@
+alias ll='ls -la'
+
+alias k='kubectl'
+
 alias g='git'
 
 alias tnl='tmux new -s local'
