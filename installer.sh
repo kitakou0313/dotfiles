@@ -18,6 +18,7 @@ cat .bash_profile >> ~/.bash_profile
 cat .gitconfig >> ~/.gitconfig
 cat .tmux.conf >> ~/.tmux.conf
 
+cd ../../
 rm -rf tmp-for-dotfiles
 
 echo 'Done'
