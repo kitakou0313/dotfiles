@@ -5,7 +5,7 @@ set -e
 
 # Clone repository
 echo 'Fetch init script'
-mkdir tmp-for-dotfiles
+mkdir -p tmp-for-dotfiles
 cd tmp-for-dotfiles
 git clone https://github.com/kitakou0313/dotfiles
 cd dotfiles
