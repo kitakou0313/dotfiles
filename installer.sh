@@ -8,7 +8,7 @@ echo 'Fetch init script'
 mkdir tmp-for-dotfiles
 cd tmp-for-dotfiles
 git clone https://github.com/kitakou0313/dotfiles
-
+cd dotfiles
 
 # Copy each files
 # If file exists, add on end of file.
