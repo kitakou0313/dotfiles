@@ -17,6 +17,7 @@ cat .bashrc >> ~/.bashrc
 cat .bash_profile >> ~/.bash_profile
 cat .gitconfig >> ~/.gitconfig
 cat .tmux.conf >> ~/.tmux.conf
+cat config.fish >> ~/.config/fish/config.fish
 
 cd ../../
 rm -rf tmp-for-dotfiles
