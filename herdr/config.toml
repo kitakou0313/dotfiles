@@ -26,3 +26,7 @@ mouse_capture = true
 # - bind H select-layout even-horizontal (レイアウトを横に均等化)
 # - bind V select-layout even-vertical (レイアウトを縦に均等化)
 # - window-style / window-active-style (非アクティブペインを暗く表示)
+
+[terminal]
+# 新しいペインで起動するシェル (デフォルトは $SHELL = /bin/bash)
+default_shell = "fish"
