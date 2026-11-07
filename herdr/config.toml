@@ -1,0 +1,28 @@
+# ~/.config/herdr/config.toml に配置する
+# .tmux.conf の設定を herdr で再現したもの
+
+[keys]
+# tmux: unbind C-b / set -g prefix C-s
+prefix = "ctrl+s"
+
+# herdr は tmux と呼び方が逆
+# split_vertical = 左右に分割 (tmux の split-window -h)
+# split_horizontal = 上下に分割 (tmux の split-window -v)
+# tmux: bind | split-window -h
+split_vertical = "prefix+|"
+# tmux: bind - split-window -v
+split_horizontal = "prefix+-"
+
+[ui]
+# tmux: set -g mouse on
+mouse_capture = true
+
+# tmux: setw -g mode-keys vi / set -s copy-command 'pbcopy'
+#   herdr の copy mode はデフォルトで vi 系 (h/j/k/l, v, y) で、
+#   macOS ではクリップボードへのコピーに pbcopy を使うため、設定は不要
+
+# 以下は tmux 側で設定しているが、herdr には対応する機能がないため再現できない
+# - bind S set-window-option synchronize-pane (全ペインに同時入力)
+# - bind H select-layout even-horizontal (レイアウトを横に均等化)
+# - bind V select-layout even-vertical (レイアウトを縦に均等化)
+# - window-style / window-active-style (非アクティブペインを暗く表示)
