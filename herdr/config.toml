@@ -12,6 +12,14 @@ prefix = "ctrl+s"
 split_vertical = "prefix+|"
 # tmux: bind - split-window -v
 split_horizontal = "prefix+-"
+focus_agent="prefix+1..9"
+
+# pane の移動 (prefix + 矢印キー)
+# tmux はデフォルトの prefix + 矢印キーによる pane 移動に相当
+focus_pane_left = "prefix+left"
+focus_pane_down = "prefix+down"
+focus_pane_up = "prefix+up"
+focus_pane_right = "prefix+right"
 
 [ui]
 # tmux: set -g mouse on
